@@ -7,23 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9263A74A4579B6F740A5A3E6 /* Pods_Galaxy_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60698C77733548B051245312 /* Pods_Galaxy_Gallery.framework */; };
+		F91633E929AF1E1600FEE32D /* HomeGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633E829AF1E1600FEE32D /* HomeGalleryViewModel.swift */; };
+		F91633F029AF1EFC00FEE32D /* AstronomyPictureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633EF29AF1EFC00FEE32D /* AstronomyPictureRequest.swift */; };
+		F91633F229AF1F3100FEE32D /* FetchAstronomyPictureUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633F129AF1F3100FEE32D /* FetchAstronomyPictureUseCase.swift */; };
+		F91633F429AF208C00FEE32D /* ASGalleryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633F329AF208C00FEE32D /* ASGalleryEntity.swift */; };
+		F91633F629AF209400FEE32D /* ASGalleryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633F529AF209400FEE32D /* ASGalleryResponse.swift */; };
+		F91633F829AF209C00FEE32D /* ASGalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633F729AF209C00FEE32D /* ASGalleryService.swift */; };
+		F91633FE29AF224E00FEE32D /* NetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633FD29AF224E00FEE32D /* NetworkServiceError.swift */; };
+		F916340029AF22B600FEE32D /* DomainConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91633FF29AF22B600FEE32D /* DomainConvertibleType.swift */; };
+		F916340229AF235500FEE32D /* TPNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340129AF235500FEE32D /* TPNetworkManager.swift */; };
+		F916340429AF28F400FEE32D /* ObservableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340329AF28F400FEE32D /* ObservableProperty.swift */; };
+		F916340629AF32D100FEE32D /* NetworkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340529AF32D100FEE32D /* NetworkParser.swift */; };
+		F916340A29AF364000FEE32D /* HomeServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340929AF364000FEE32D /* HomeServiceProvider.swift */; };
+		F916340C29AF367000FEE32D /* HomeUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340B29AF367000FEE32D /* HomeUseCaseProvider.swift */; };
+		F916340F29AF3B8500FEE32D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340E29AF3B8500FEE32D /* AppCoordinator.swift */; };
+		F916341129AF3B9900FEE32D /* AppServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341029AF3B9900FEE32D /* AppServiceProvider.swift */; };
+		F916341329AF3BB100FEE32D /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341229AF3BB100FEE32D /* AppUserDefaults.swift */; };
+		F916341529AF3C0700FEE32D /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341429AF3C0700FEE32D /* HomeCoordinator.swift */; };
+		F916341729AF3C1500FEE32D /* HomeSceneProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341629AF3C1500FEE32D /* HomeSceneProvider.swift */; };
+		F916341A29AF3CD600FEE32D /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341929AF3CD600FEE32D /* BaseCoordinator.swift */; };
+		F916341C29AF3EBE00FEE32D /* ASGalleryUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341B29AF3EBE00FEE32D /* ASGalleryUseCaseProvider.swift */; };
+		F916341E29AF3F3A00FEE32D /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341D29AF3F3A00FEE32D /* AppConfiguration.swift */; };
+		F916346429AFB89F00FEE32D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916346329AFB89F00FEE32D /* SceneDelegate.swift */; };
+		F9917B5029B04E95005FF394 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9917B4F29B04E95005FF394 /* Utilities.swift */; };
 		F995116F29AF1770002F6B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995116E29AF1770002F6B8A /* AppDelegate.swift */; };
-		F995117129AF1770002F6B8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995117029AF1770002F6B8A /* SceneDelegate.swift */; };
-		F995117329AF1770002F6B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995117229AF1770002F6B8A /* ViewController.swift */; };
-		F995117629AF1770002F6B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F995117429AF1770002F6B8A /* Main.storyboard */; };
 		F995117829AF1771002F6B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F995117729AF1771002F6B8A /* Assets.xcassets */; };
 		F995117B29AF1771002F6B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F995117929AF1771002F6B8A /* LaunchScreen.storyboard */; };
+		F995118A29AF18B1002F6B8A /* HomeGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995118829AF18B1002F6B8A /* HomeGalleryViewController.swift */; };
+		F995118B29AF18B1002F6B8A /* HomeGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F995118929AF18B1002F6B8A /* HomeGalleryViewController.xib */; };
+		F995118E29AF18CD002F6B8A /* HomeGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995118C29AF18CD002F6B8A /* HomeGalleryCell.swift */; };
+		F995118F29AF18CD002F6B8A /* HomeGalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F995118D29AF18CD002F6B8A /* HomeGalleryCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60698C77733548B051245312 /* Pods_Galaxy_Gallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galaxy_Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C42D79C79723FE1DA40E7 /* Pods-Galaxy Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaxy Gallery.release.xcconfig"; path = "Target Support Files/Pods-Galaxy Gallery/Pods-Galaxy Gallery.release.xcconfig"; sourceTree = "<group>"; };
+		B9F2E3622BC2F0D7F2EC4FDD /* Pods-Galaxy Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galaxy Gallery.debug.xcconfig"; path = "Target Support Files/Pods-Galaxy Gallery/Pods-Galaxy Gallery.debug.xcconfig"; sourceTree = "<group>"; };
+		F91633E829AF1E1600FEE32D /* HomeGalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGalleryViewModel.swift; sourceTree = "<group>"; };
+		F91633EF29AF1EFC00FEE32D /* AstronomyPictureRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPictureRequest.swift; sourceTree = "<group>"; };
+		F91633F129AF1F3100FEE32D /* FetchAstronomyPictureUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAstronomyPictureUseCase.swift; sourceTree = "<group>"; };
+		F91633F329AF208C00FEE32D /* ASGalleryEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASGalleryEntity.swift; sourceTree = "<group>"; };
+		F91633F529AF209400FEE32D /* ASGalleryResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASGalleryResponse.swift; sourceTree = "<group>"; };
+		F91633F729AF209C00FEE32D /* ASGalleryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASGalleryService.swift; sourceTree = "<group>"; };
+		F91633FD29AF224E00FEE32D /* NetworkServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
+		F91633FF29AF22B600FEE32D /* DomainConvertibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainConvertibleType.swift; sourceTree = "<group>"; };
+		F916340129AF235500FEE32D /* TPNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPNetworkManager.swift; sourceTree = "<group>"; };
+		F916340329AF28F400FEE32D /* ObservableProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableProperty.swift; sourceTree = "<group>"; };
+		F916340529AF32D100FEE32D /* NetworkParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParser.swift; sourceTree = "<group>"; };
+		F916340929AF364000FEE32D /* HomeServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceProvider.swift; sourceTree = "<group>"; };
+		F916340B29AF367000FEE32D /* HomeUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCaseProvider.swift; sourceTree = "<group>"; };
+		F916340E29AF3B8500FEE32D /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F916341029AF3B9900FEE32D /* AppServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppServiceProvider.swift; sourceTree = "<group>"; };
+		F916341229AF3BB100FEE32D /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		F916341429AF3C0700FEE32D /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		F916341629AF3C1500FEE32D /* HomeSceneProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneProvider.swift; sourceTree = "<group>"; };
+		F916341929AF3CD600FEE32D /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		F916341B29AF3EBE00FEE32D /* ASGalleryUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASGalleryUseCaseProvider.swift; sourceTree = "<group>"; };
+		F916341D29AF3F3A00FEE32D /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		F916346329AFB89F00FEE32D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9917B4F29B04E95005FF394 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		F995116B29AF1770002F6B8A /* Galaxy Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galaxy Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F995116E29AF1770002F6B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F995117029AF1770002F6B8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F995117229AF1770002F6B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F995117529AF1770002F6B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F995117729AF1771002F6B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F995117A29AF1771002F6B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F995117C29AF1771002F6B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F995117C29AF1771002F6B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Galaxy Gallery/Resources/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F995118829AF18B1002F6B8A /* HomeGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGalleryViewController.swift; sourceTree = "<group>"; };
+		F995118929AF18B1002F6B8A /* HomeGalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeGalleryViewController.xib; sourceTree = "<group>"; };
+		F995118C29AF18CD002F6B8A /* HomeGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGalleryCell.swift; sourceTree = "<group>"; };
+		F995118D29AF18CD002F6B8A /* HomeGalleryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeGalleryCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,142 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9263A74A4579B6F740A5A3E6 /* Pods_Galaxy_Gallery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A0AF430C475F4AB022F5E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60698C77733548B051245312 /* Pods_Galaxy_Gallery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DA13B9E75DC378C53D8D342 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9F2E3622BC2F0D7F2EC4FDD /* Pods-Galaxy Gallery.debug.xcconfig */,
+				968C42D79C79723FE1DA40E7 /* Pods-Galaxy Gallery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F91633EA29AF1E8900FEE32D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F91633EF29AF1EFC00FEE32D /* AstronomyPictureRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F91633EB29AF1E9500FEE32D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F91633F129AF1F3100FEE32D /* FetchAstronomyPictureUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F91633EC29AF1E9C00FEE32D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				F91633F329AF208C00FEE32D /* ASGalleryEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F91633ED29AF1EAA00FEE32D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F91633F729AF209C00FEE32D /* ASGalleryService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F91633EE29AF1EB100FEE32D /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F91633F529AF209400FEE32D /* ASGalleryResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F91633F929AF21CF00FEE32D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F995116E29AF1770002F6B8A /* AppDelegate.swift */,
+				F916346329AFB89F00FEE32D /* SceneDelegate.swift */,
+				F916341D29AF3F3A00FEE32D /* AppConfiguration.swift */,
+				F916340E29AF3B8500FEE32D /* AppCoordinator.swift */,
+				F916341029AF3B9900FEE32D /* AppServiceProvider.swift */,
+				F916341229AF3BB100FEE32D /* AppUserDefaults.swift */,
+				F916341829AF3CC900FEE32D /* Base */,
+				F91633FC29AF223400FEE32D /* Helper */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F91633FA29AF21DF00FEE32D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F995118229AF1826002F6B8A /* HomeGallery */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F91633FB29AF21EC00FEE32D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F995117729AF1771002F6B8A /* Assets.xcassets */,
+				F995117929AF1771002F6B8A /* LaunchScreen.storyboard */,
+				F995117C29AF1771002F6B8A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F91633FC29AF223400FEE32D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F91633FD29AF224E00FEE32D /* NetworkServiceError.swift */,
+				F91633FF29AF22B600FEE32D /* DomainConvertibleType.swift */,
+				F916340129AF235500FEE32D /* TPNetworkManager.swift */,
+				F916340329AF28F400FEE32D /* ObservableProperty.swift */,
+				F916340529AF32D100FEE32D /* NetworkParser.swift */,
+				F9917B4F29B04E95005FF394 /* Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F916340D29AF379400FEE32D /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F916340929AF364000FEE32D /* HomeServiceProvider.swift */,
+				F916340B29AF367000FEE32D /* HomeUseCaseProvider.swift */,
+				F916341429AF3C0700FEE32D /* HomeCoordinator.swift */,
+				F916341629AF3C1500FEE32D /* HomeSceneProvider.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F916341829AF3CC900FEE32D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F916341929AF3CD600FEE32D /* BaseCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		F995116229AF1770002F6B8A = {
 			isa = PBXGroup;
 			children = (
 				F995116D29AF1770002F6B8A /* Galaxy Gallery */,
 				F995116C29AF1770002F6B8A /* Products */,
+				8DA13B9E75DC378C53D8D342 /* Pods */,
+				2A0AF430C475F4AB022F5E0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +233,70 @@
 		F995116D29AF1770002F6B8A /* Galaxy Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				F995116E29AF1770002F6B8A /* AppDelegate.swift */,
-				F995117029AF1770002F6B8A /* SceneDelegate.swift */,
-				F995117229AF1770002F6B8A /* ViewController.swift */,
-				F995117429AF1770002F6B8A /* Main.storyboard */,
-				F995117729AF1771002F6B8A /* Assets.xcassets */,
-				F995117929AF1771002F6B8A /* LaunchScreen.storyboard */,
-				F995117C29AF1771002F6B8A /* Info.plist */,
+				F91633F929AF21CF00FEE32D /* Application */,
+				F91633FA29AF21DF00FEE32D /* Features */,
+				F91633FB29AF21EC00FEE32D /* Resources */,
 			);
 			path = "Galaxy Gallery";
+			sourceTree = "<group>";
+		};
+		F995118229AF1826002F6B8A /* HomeGallery */ = {
+			isa = PBXGroup;
+			children = (
+				F995118329AF1848002F6B8A /* Scenes */,
+				F995118429AF1859002F6B8A /* Domin */,
+				F995118529AF185F002F6B8A /* Data */,
+				F916340D29AF379400FEE32D /* Coordinators */,
+			);
+			path = HomeGallery;
+			sourceTree = "<group>";
+		};
+		F995118329AF1848002F6B8A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F995118629AF1877002F6B8A /* Landing */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F995118429AF1859002F6B8A /* Domin */ = {
+			isa = PBXGroup;
+			children = (
+				F91633EC29AF1E9C00FEE32D /* Entity */,
+				F91633EB29AF1E9500FEE32D /* UseCase */,
+				F91633EA29AF1E8900FEE32D /* Request */,
+				F916341B29AF3EBE00FEE32D /* ASGalleryUseCaseProvider.swift */,
+			);
+			path = Domin;
+			sourceTree = "<group>";
+		};
+		F995118529AF185F002F6B8A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F91633EE29AF1EB100FEE32D /* Response */,
+				F91633ED29AF1EAA00FEE32D /* Service */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F995118629AF1877002F6B8A /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				F995118729AF1882002F6B8A /* Cell */,
+				F995118829AF18B1002F6B8A /* HomeGalleryViewController.swift */,
+				F995118929AF18B1002F6B8A /* HomeGalleryViewController.xib */,
+				F91633E829AF1E1600FEE32D /* HomeGalleryViewModel.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		F995118729AF1882002F6B8A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F995118C29AF18CD002F6B8A /* HomeGalleryCell.swift */,
+				F995118D29AF18CD002F6B8A /* HomeGalleryCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F995117F29AF1771002F6B8A /* Build configuration list for PBXNativeTarget "Galaxy Gallery" */;
 			buildPhases = (
+				60F8E5A038C9A2ED9A302DF5 /* [CP] Check Pods Manifest.lock */,
 				F995116729AF1770002F6B8A /* Sources */,
 				F995116829AF1770002F6B8A /* Frameworks */,
 				F995116929AF1770002F6B8A /* Resources */,
+				55EB117F00446337A083410A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +359,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F995118F29AF18CD002F6B8A /* HomeGalleryCell.xib in Resources */,
 				F995117B29AF1771002F6B8A /* LaunchScreen.storyboard in Resources */,
 				F995117829AF1771002F6B8A /* Assets.xcassets in Resources */,
-				F995117629AF1770002F6B8A /* Main.storyboard in Resources */,
+				F995118B29AF18B1002F6B8A /* HomeGalleryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55EB117F00446337A083410A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galaxy Gallery/Pods-Galaxy Gallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galaxy Gallery/Pods-Galaxy Gallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Galaxy Gallery/Pods-Galaxy Gallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F8E5A038C9A2ED9A302DF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Galaxy Gallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F995116729AF1770002F6B8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F995117329AF1770002F6B8A /* ViewController.swift in Sources */,
+				F91633F229AF1F3100FEE32D /* FetchAstronomyPictureUseCase.swift in Sources */,
+				F91633FE29AF224E00FEE32D /* NetworkServiceError.swift in Sources */,
+				F995118E29AF18CD002F6B8A /* HomeGalleryCell.swift in Sources */,
+				F91633F429AF208C00FEE32D /* ASGalleryEntity.swift in Sources */,
+				F9917B5029B04E95005FF394 /* Utilities.swift in Sources */,
+				F916341329AF3BB100FEE32D /* AppUserDefaults.swift in Sources */,
+				F916340629AF32D100FEE32D /* NetworkParser.swift in Sources */,
+				F916341A29AF3CD600FEE32D /* BaseCoordinator.swift in Sources */,
+				F916340C29AF367000FEE32D /* HomeUseCaseProvider.swift in Sources */,
+				F91633F029AF1EFC00FEE32D /* AstronomyPictureRequest.swift in Sources */,
+				F916341C29AF3EBE00FEE32D /* ASGalleryUseCaseProvider.swift in Sources */,
+				F916341729AF3C1500FEE32D /* HomeSceneProvider.swift in Sources */,
+				F916341E29AF3F3A00FEE32D /* AppConfiguration.swift in Sources */,
+				F916340029AF22B600FEE32D /* DomainConvertibleType.swift in Sources */,
 				F995116F29AF1770002F6B8A /* AppDelegate.swift in Sources */,
-				F995117129AF1770002F6B8A /* SceneDelegate.swift in Sources */,
+				F91633F829AF209C00FEE32D /* ASGalleryService.swift in Sources */,
+				F916340429AF28F400FEE32D /* ObservableProperty.swift in Sources */,
+				F916340A29AF364000FEE32D /* HomeServiceProvider.swift in Sources */,
+				F995118A29AF18B1002F6B8A /* HomeGalleryViewController.swift in Sources */,
+				F91633E929AF1E1600FEE32D /* HomeGalleryViewModel.swift in Sources */,
+				F916340F29AF3B8500FEE32D /* AppCoordinator.swift in Sources */,
+				F916346429AFB89F00FEE32D /* SceneDelegate.swift in Sources */,
+				F916341129AF3B9900FEE32D /* AppServiceProvider.swift in Sources */,
+				F916340229AF235500FEE32D /* TPNetworkManager.swift in Sources */,
+				F91633F629AF209400FEE32D /* ASGalleryResponse.swift in Sources */,
+				F916341529AF3C0700FEE32D /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F995117429AF1770002F6B8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F995117529AF1770002F6B8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F995117929AF1771002F6B8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +458,346 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F916341F29AF5A0700FEE32D /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Staging";
+		};
+		F916342029AF5A0700FEE32D /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F2E3622BC2F0D7F2EC4FDD /* Pods-Galaxy Gallery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENVIRONMENT = Debug;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Galaxy Gallery/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Galaxy-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Staging";
+		};
+		F916342129AF5A2500FEE32D /* Debug Preprod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Preprod";
+		};
+		F916342229AF5A2500FEE32D /* Debug Preprod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F2E3622BC2F0D7F2EC4FDD /* Pods-Galaxy Gallery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENVIRONMENT = Debug;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Galaxy Gallery/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Galaxy-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Preprod";
+		};
+		F916342329AF5A3400FEE32D /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Staging";
+		};
+		F916342429AF5A3400FEE32D /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C42D79C79723FE1DA40E7 /* Pods-Galaxy Gallery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENVIRONMENT = Production;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Galaxy Gallery/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Galaxy-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Staging";
+		};
+		F916342529AF5A3E00FEE32D /* Release Preprod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Preprod";
+		};
+		F916342629AF5A3E00FEE32D /* Release Preprod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C42D79C79723FE1DA40E7 /* Pods-Galaxy Gallery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENVIRONMENT = Production;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Galaxy Gallery/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Galaxy-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Preprod";
+		};
 		F995117D29AF1771002F6B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,16 +914,17 @@
 		};
 		F995118029AF1771002F6B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F2E3622BC2F0D7F2EC4FDD /* Pods-Galaxy Gallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENVIRONMENT = Debug;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Galaxy Gallery/Info.plist";
+				INFOPLIST_FILE = "Galaxy Gallery/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +942,17 @@
 		};
 		F995118129AF1771002F6B8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C42D79C79723FE1DA40E7 /* Pods-Galaxy Gallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENVIRONMENT = Production;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Galaxy Gallery/Info.plist";
+				INFOPLIST_FILE = "Galaxy Gallery/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,7 +975,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F995117D29AF1771002F6B8A /* Debug */,
+				F916342129AF5A2500FEE32D /* Debug Preprod */,
+				F916341F29AF5A0700FEE32D /* Debug Staging */,
 				F995117E29AF1771002F6B8A /* Release */,
+				F916342529AF5A3E00FEE32D /* Release Preprod */,
+				F916342329AF5A3400FEE32D /* Release Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -350,7 +988,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F995118029AF1771002F6B8A /* Debug */,
+				F916342229AF5A2500FEE32D /* Debug Preprod */,
+				F916342029AF5A0700FEE32D /* Debug Staging */,
 				F995118129AF1771002F6B8A /* Release */,
+				F916342629AF5A3E00FEE32D /* Release Preprod */,
+				F916342429AF5A3400FEE32D /* Release Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
