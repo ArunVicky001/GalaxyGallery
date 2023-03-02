@@ -11,7 +11,7 @@ class ASGalleryDataStore {
     static let shared = ASGalleryDataStore()
     private let userDefaults = UserDefaults.standard
     
-    // Store the response data
+    // Store the response data.
     func saveAPODData(data: ASGalleryEntity) {
         let encoder = JSONEncoder()
         if let encoded = try? encoder.encode(data) {
@@ -19,7 +19,7 @@ class ASGalleryDataStore {
         }
     }
     
-    // Retrieve the stored response data
+    // Retrieve the stored response data.
     func getStoredAPODData() -> ASGalleryEntity? {
         guard let data = userDefaults.object(forKey: "apod_data") as? Data else {
             return nil
@@ -33,12 +33,12 @@ class ASGalleryDataStore {
         return nil
     }
     
-    // Store the image data
+    // Store the image data.
     func saveImageData(data: Data) {
         userDefaults.set(data, forKey: "asGallery_image")
     }
     
-    // Retrieve the stored image data
+    // Retrieve the stored image data.
     func getStoredImageData() -> Data? {
         return userDefaults.data(forKey: "asGallery_image")
     }       
