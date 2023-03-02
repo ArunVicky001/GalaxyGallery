@@ -15,6 +15,7 @@ class HomeGalleryViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var astroImageView: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var informationLabel: UILabel!
     
     let viewModel: HomeGalleryViewModel!
     override func viewDidLoad() {
@@ -40,12 +41,23 @@ class HomeGalleryViewController: UIViewController {
     func setupBindings() {
         viewModel.astronomyPicture += PropertyObserver(uniqueTarget: self, callback: { [weak self] result in
             guard let self = self, let data = result else { return }           
-            self.updateUI(data: data)           
+            self.updateUI(data: data)
+            ASGalleryDataStore.shared.saveData(data: data)
         })
         
         viewModel.error += PropertyObserver(uniqueTarget: self, callback: { [weak self] _ in
-            guard let self = self, let data = ASGalleryDataStore.shared.getStoredAPODData() else { return }
-            self.updateUI(data: data)
+            guard let self = self, let data = ASGalleryDataStore.shared.getStoredData() else { self?.informationLabel.text = "We are not connected to the internet"
+                self?.activityIndicator.stopAnimating()
+                return }
+            self.informationLabel.text = "We are not connected to the internet, showing you the last image we have."
+            self.titleLabel.text = data.title
+            self.descriptionLabel.text = data.explanation
+            guard let url = URL(string: data.hdurl) else { return }
+            self.astroImageView.sd_setImage(with: url, completed: nil)
+            let titleHeight = Utilities.heightForView(text: data.title, width: self.titleLabel.frame.width)
+            let descriptionHeight = Utilities.heightForView(text: data.explanation, width: self.titleLabel.frame.width)
+            self.scrollView.contentSize = CGSize(width: self.scrollView.frame.size.width, height: titleHeight + descriptionHeight + 300)
+            self.activityIndicator.stopAnimating()
         })
     }
     

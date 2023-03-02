@@ -12,34 +12,24 @@ class ASGalleryDataStore {
     private let userDefaults = UserDefaults.standard
     
     // Store the response data.
-    func saveAPODData(data: ASGalleryEntity) {
+    func saveData(data: ASGalleryEntity) {
         let encoder = JSONEncoder()
-        if let encoded = try? encoder.encode(data) {
-            userDefaults.set(encoded, forKey: "apod_data")
+        let galleryEntity = GalleryEntity(from: data)
+        if let encoded = try? encoder.encode(galleryEntity) {
+            userDefaults.set(encoded, forKey: "gallery_entity")
         }
     }
     
     // Retrieve the stored response data.
-    func getStoredAPODData() -> ASGalleryEntity? {
-        guard let data = userDefaults.object(forKey: "apod_data") as? Data else {
-            return nil
+    func getStoredData() -> GalleryEntity? {
+        if let data = UserDefaults.standard.data(forKey: "gallery_entity") {
+            // decode the data as an instance of the struct
+            let decoder = JSONDecoder()
+            if let entity = try? decoder.decode(GalleryEntity.self, from: data) {
+                return entity
+            }
         }
-        
-        let decoder = JSONDecoder()
-        if let decoded = try? decoder.decode(ASGalleryEntity.self, from: data) {
-            return decoded
-        }
-        
         return nil
     }
-    
-    // Store the image data.
-    func saveImageData(data: Data) {
-        userDefaults.set(data, forKey: "asGallery_image")
-    }
-    
-    // Retrieve the stored image data.
-    func getStoredImageData() -> Data? {
-        return userDefaults.data(forKey: "asGallery_image")
-    }       
+       
 }

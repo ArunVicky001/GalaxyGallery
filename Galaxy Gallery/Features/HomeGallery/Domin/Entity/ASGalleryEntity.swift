@@ -7,7 +7,7 @@
 
 import SwiftyJSON
 
-struct ASGalleryEntity: Codable {
+struct ASGalleryEntity {
 
 	let url: String
 	let copyright: String
@@ -19,3 +19,26 @@ struct ASGalleryEntity: Codable {
 	let mediaType: String
 
 }
+
+struct GalleryEntity: Codable {
+    let url: String
+    let copyright: String
+    let date: String
+    let serviceVersion: String
+    let explanation: String
+    let title: String
+    let hdurl: String
+    let mediaType: String
+
+    init(from asGalleryEntity: ASGalleryEntity) {
+        self.url = asGalleryEntity.url
+        self.date = asGalleryEntity.date
+        self.explanation = asGalleryEntity.explanation
+        self.title = asGalleryEntity.title
+        self.hdurl = asGalleryEntity.hdurl
+        self.mediaType = asGalleryEntity.mediaType
+        self.serviceVersion = asGalleryEntity.serviceVersion
+        self.copyright = asGalleryEntity.copyright
+    }
+}
+
