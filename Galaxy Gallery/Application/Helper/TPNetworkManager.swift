@@ -47,7 +47,7 @@ public class TPNetworkManager {
     
     @discardableResult
     public func callAPI<T: NetworkParser>(_ method: HTTPMethod,
-                                          url: String,
+                                          endPoint: String,
                                           needsErrorPrompt: Bool = false,
                                           parameters: Encodable? = nil,
                                           isForceRawData: Bool = false,
@@ -55,7 +55,8 @@ public class TPNetworkManager {
                                           additionalHeaders: [String: String]? = nil,
                                           intercepter: RequestInterceptor? = nil,
                                           completionHandler: @escaping (Swift.Result<T, NetworkServiceError>) -> Void) -> CancellableRequest?
-    {        
+    {
+        let url = baseURL + endPoint
         var encoding: ParameterEncoding = URLEncoding(arrayEncoding: .noBrackets, boolEncoding: .literal)
         if let customEncoding = paramEncoding {
             encoding = customEncoding

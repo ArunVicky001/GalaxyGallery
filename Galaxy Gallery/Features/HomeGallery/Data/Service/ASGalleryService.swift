@@ -22,9 +22,9 @@ extension ASGalleryService: FetchAstronomyPictureUseCase {
     func ASGalleryUseCase(completion: @escaping (Result<ASGalleryEntity, NetworkServiceError>) -> Void) {
         
         let request = FetchAstronomyPictureRequest(apiKey: "WT1XHdeQtkRlMpRCVgbdiSyQgqjoX8ZSyP7acqkG")
-        let url = "https://api.nasa.gov/planetary/apod"        
+        let endPoint = "apod"
         networkManager.callAPI(.get,
-                               url: url,
+                               endPoint: endPoint,
                                parameters: request,
                                completionHandler: { (result: Result<ASGalleryResponse, NetworkServiceError>) in
             completion(result.map { data in

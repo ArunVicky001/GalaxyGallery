@@ -18,11 +18,11 @@ struct AppConfiguration {
     static var baseURL: String {
         switch AppConfiguration.environment {
         case .production:
-            return "http://ec2-52-90-108-185.compute-1.amazonaws.com:8085"
+            return "https://api.nasa.gov/planetary/"
         case .staging:
-            return "http://ec2-52-90-108-185.compute-1.amazonaws.com:8085"
+            return "https://api.nasa.gov/planetary/"
         case .preprod:
-            return "http://ec2-52-90-108-185.compute-1.amazonaws.com:8085"
+            return "https://api.nasa.gov/planetary/"
         }
     }
     
