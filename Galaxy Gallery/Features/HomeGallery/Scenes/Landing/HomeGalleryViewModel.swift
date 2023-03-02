@@ -12,6 +12,7 @@ class HomeGalleryViewModel {
     let useCase: FetchAstronomyPictureUseCase
     var reloadAstroPictureList = ObservableProperty(value: false)
     var astronomyPicture = ObservableProperty<ASGalleryEntity?>(value: nil)
+    var error = ObservableProperty(value: false)
     
     init(useCase: FetchAstronomyPictureUseCase) {
         self.useCase = useCase
@@ -29,6 +30,7 @@ class HomeGalleryViewModel {
                 self.astronomyPicture.value = data
             case .failure(let error):
                 print(error)
+                self.error.value = true
             }
         }
     }

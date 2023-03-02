@@ -31,6 +31,7 @@
 		F916341E29AF3F3A00FEE32D /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341D29AF3F3A00FEE32D /* AppConfiguration.swift */; };
 		F916346429AFB89F00FEE32D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916346329AFB89F00FEE32D /* SceneDelegate.swift */; };
 		F9917B5029B04E95005FF394 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9917B4F29B04E95005FF394 /* Utilities.swift */; };
+		F9917B5229B06B09005FF394 /* ASGalleryDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9917B5129B06B09005FF394 /* ASGalleryDataStore.swift */; };
 		F995116F29AF1770002F6B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F995116E29AF1770002F6B8A /* AppDelegate.swift */; };
 		F995117829AF1771002F6B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F995117729AF1771002F6B8A /* Assets.xcassets */; };
 		F995117B29AF1771002F6B8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F995117929AF1771002F6B8A /* LaunchScreen.storyboard */; };
@@ -67,6 +68,7 @@
 		F916341D29AF3F3A00FEE32D /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		F916346329AFB89F00FEE32D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F9917B4F29B04E95005FF394 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		F9917B5129B06B09005FF394 /* ASGalleryDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASGalleryDataStore.swift; sourceTree = "<group>"; };
 		F995116B29AF1770002F6B8A /* Galaxy Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galaxy Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F995116E29AF1770002F6B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F995117729AF1771002F6B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				F995118829AF18B1002F6B8A /* HomeGalleryViewController.swift */,
 				F995118929AF18B1002F6B8A /* HomeGalleryViewController.xib */,
 				F91633E829AF1E1600FEE32D /* HomeGalleryViewModel.swift */,
+				F9917B5129B06B09005FF394 /* ASGalleryDataStore.swift */,
 			);
 			path = Landing;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				F916341A29AF3CD600FEE32D /* BaseCoordinator.swift in Sources */,
 				F916340C29AF367000FEE32D /* HomeUseCaseProvider.swift in Sources */,
 				F91633F029AF1EFC00FEE32D /* AstronomyPictureRequest.swift in Sources */,
+				F9917B5229B06B09005FF394 /* ASGalleryDataStore.swift in Sources */,
 				F916341C29AF3EBE00FEE32D /* ASGalleryUseCaseProvider.swift in Sources */,
 				F916341729AF3C1500FEE32D /* HomeSceneProvider.swift in Sources */,
 				F916341E29AF3F3A00FEE32D /* AppConfiguration.swift in Sources */,

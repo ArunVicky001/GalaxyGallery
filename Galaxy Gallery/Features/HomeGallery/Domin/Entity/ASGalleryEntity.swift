@@ -7,7 +7,7 @@
 
 import SwiftyJSON
 
-struct ASGalleryEntity {
+struct ASGalleryEntity: Codable {
 
 	let url: String
 	let copyright: String
