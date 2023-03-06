@@ -23,7 +23,6 @@
 		F916340C29AF367000FEE32D /* HomeUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340B29AF367000FEE32D /* HomeUseCaseProvider.swift */; };
 		F916340F29AF3B8500FEE32D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916340E29AF3B8500FEE32D /* AppCoordinator.swift */; };
 		F916341129AF3B9900FEE32D /* AppServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341029AF3B9900FEE32D /* AppServiceProvider.swift */; };
-		F916341329AF3BB100FEE32D /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341229AF3BB100FEE32D /* AppUserDefaults.swift */; };
 		F916341529AF3C0700FEE32D /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341429AF3C0700FEE32D /* HomeCoordinator.swift */; };
 		F916341729AF3C1500FEE32D /* HomeSceneProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341629AF3C1500FEE32D /* HomeSceneProvider.swift */; };
 		F916341A29AF3CD600FEE32D /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916341929AF3CD600FEE32D /* BaseCoordinator.swift */; };
@@ -62,7 +61,6 @@
 		F916340B29AF367000FEE32D /* HomeUseCaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCaseProvider.swift; sourceTree = "<group>"; };
 		F916340E29AF3B8500FEE32D /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		F916341029AF3B9900FEE32D /* AppServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppServiceProvider.swift; sourceTree = "<group>"; };
-		F916341229AF3BB100FEE32D /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
 		F916341429AF3C0700FEE32D /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		F916341629AF3C1500FEE32D /* HomeSceneProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneProvider.swift; sourceTree = "<group>"; };
 		F916341929AF3CD600FEE32D /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 				F916341D29AF3F3A00FEE32D /* AppConfiguration.swift */,
 				F916340E29AF3B8500FEE32D /* AppCoordinator.swift */,
 				F916341029AF3B9900FEE32D /* AppServiceProvider.swift */,
-				F916341229AF3BB100FEE32D /* AppUserDefaults.swift */,
 				F916341829AF3CC900FEE32D /* Base */,
 				F91633FC29AF223400FEE32D /* Helper */,
 			);
@@ -415,7 +412,6 @@
 				F91633FE29AF224E00FEE32D /* NetworkServiceError.swift in Sources */,
 				F91633F429AF208C00FEE32D /* ASGalleryEntity.swift in Sources */,
 				F9917B5029B04E95005FF394 /* Utilities.swift in Sources */,
-				F916341329AF3BB100FEE32D /* AppUserDefaults.swift in Sources */,
 				F916340629AF32D100FEE32D /* NetworkParser.swift in Sources */,
 				F916341A29AF3CD600FEE32D /* BaseCoordinator.swift in Sources */,
 				F916340C29AF367000FEE32D /* HomeUseCaseProvider.swift in Sources */,

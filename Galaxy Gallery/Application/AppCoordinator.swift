@@ -1,8 +1,8 @@
 //
 //  AppCoordinator.swift
-//  Chef
+//  Galaxy Gallery
 //
-//  Created by Vignesh Arunagiri on 18/04/22.
+//  Created by Vignesh Arunagiri on 01/03/23.
 //
 
 import UIKit

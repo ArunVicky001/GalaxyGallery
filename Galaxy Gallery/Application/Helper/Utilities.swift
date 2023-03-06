@@ -2,7 +2,7 @@
 //  Utilities.swift
 //  Galaxy Gallery
 //
-//  Created by Vignesh A on 02/03/23.
+//  Created by Vignesh A on 01/03/23.
 //
 
 import Foundation
